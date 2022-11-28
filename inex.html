@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Example</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form">
+         <img src="images/download.png">
+            <div class="title">Tạo tài khoản Google</div>
+            
+            <div>
+                <label for="username"></label>
+                <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Họ">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+             <div class="error"></div>
+    
+            <label for ="Ten"></label>
+            <input
+            type="Ten"
+            name="Ten"
+            id="Ten"
+            placeholder="Tên">
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+         <div class="error"></div>
+                <label for="email"></label>
+                <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Tên người dùng         @gmail.com">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+                <p>Bạn có thể sử dụng chữ cái, số và dấu chấm</p>
+            </div>
+            <div>
+                <label for="password"></label>
+                
+                <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Mật khẩu">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+                
+                <label for="Xacnhan"></label>
+                <input
+                type="password"
+                name="Xacnhan"
+                id="Xacnhan"
+                placeholder="Xác nhận">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+                <p id="kytu">Sử dụng 8 ký tự trở lên và kết hợp chữ cái, chữ số và biểu tượng</p>
+            </div>
+            
+            <button type="submit">Tiếp theo</button>
+             <a href="">Đăng nhập</a>
+        </form>
+    </div>
+
+  
+</body>
+<script src="app.js">
+</script>
+</html>
